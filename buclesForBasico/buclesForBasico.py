@@ -1,13 +1,13 @@
 for numeroEntero in range(0,151):
 	print(numeroEntero)
 
-for multiplosdeCinco in range(5,1001,5)
-print(multiplosdeCinco)
+for multiplosdeCinco in range(5,1001,5):
+    print(multiplosdeCinco)
 
 """Contar, a la manera del Dojo: imprime números enteros del 1 al 100. Si es divisible por 5, imprime "Coding” en su lugar.
  Si es divisible por 10, imprime "Coding Dojo"."""
 
-for multiplosdeCinco in range(5,1001)
+for multiplosdeCinco in range(5,1001):
 	if multiplosdeCinco%5==0:
 		print(multiplosdeCinco, "Sí, es multiplo")
 	else:
@@ -25,9 +25,9 @@ Por ejemplo, si lowNum=2, highNum=9 y mult=3. El bucle debe imprimir 3, 6, 9 (en
 highNumber = 9
 lowNumber = 2
 mult = 3
-for contadorFlexible in range(lowNumber, highNumber+1)
-	if %mult==0:
-        print(contadorFlexible) 
+for contadorFlexible in range(lowNumber, highNumber+1):
+	if %mult == 0:
+            print(contadorFlexible) 
 
 for contarDojo in range(1,101):
     if i%10==0:
